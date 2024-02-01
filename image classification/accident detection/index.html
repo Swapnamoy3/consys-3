@@ -1,13 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="input_box">
+            <div class="dropFiles">
+                <h1>select video</h1>
+                <h4>dop video here</h4>
+                <input type="file" id="video" name="video" accept="video/*" capture="environment" hidden>
+            </div>
+        </div>
+        <button>Start</button>
+        <video src="" alt="" height="250px" width="250px" hidden muted> </video>
+        <canvas hidden></canvas>
+        <h3></h3>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+    <script src="fileHandeller.js"></script>
+    <!-- <script type="module" src="/main.js"></script> -->
+</body>
 </html>
