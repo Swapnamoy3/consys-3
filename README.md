@@ -40,3 +40,8 @@ pnpm dev
 # bun
 bun dev
 ```
+
+Goto the link that will be given in the terminal just after running the above commands.
+Or goto  http://localhost:5173/
+
+I hope this helps you get started with your project. If you have any questions, feel free to ask me. 😊
