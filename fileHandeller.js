@@ -101,7 +101,7 @@ let list = [];
 
 //loding model
 async function lodeModel(){
-    const PATH3 = "http://127.0.0.1:5500/crash_detection/temp/crash_detection/model.json";
+    const PATH3 = "http://localhost:5173/crash_detection/temp/crash_detection/model.json";
     let model = await tf.loadLayersModel(PATH3)
     return model;
 }
